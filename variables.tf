@@ -17,3 +17,15 @@ variable "example-subnet2" {
   type = string
     description = "This is Spoke2-Subnet"
 }
+
+variable "example-rg1" {
+  type = string
+    description = "This is Spoke2-Subnet"
+    default = "Spoke2-rg"
+}
+
+variable "example-rg" {
+  type = string
+    description = "This is Spoke2-Subnet"
+    default = "Spoke1-rg"
+}

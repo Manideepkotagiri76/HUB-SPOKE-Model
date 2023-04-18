@@ -1,11 +1,11 @@
 # Define the resource group
 resource "azurerm_resource_group" "example2" {
-  name     = "var.example-rg"
+  name     = "var.example-rg1"
   location = "eastus"
 }
 
 locals {
-  rgname = "${azurerm_resource_group.example2.name}"
+  rgname1 = "${azurerm_resource_group.example2.name}"
 }
 
 # Define the Virtual Network
